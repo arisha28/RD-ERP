@@ -11,7 +11,7 @@ const adminSchema=new Schema({
     adminImage:{type:String,default:''},
     status:{type:String,default:'Active',enum:['Active','InActive']},
     createdAt:Date,
-    updatedAt:Date,
+    updatedAt:Date, 
 
 })
 adminSchema.plugin(timestamps,{index:true})
